@@ -1,0 +1,149 @@
+<!-- 
+Copyright@ LINE 2019
+email jounghunyoung@gmail.com
+-->
+* {
+  	box-sizing: border-box;
+  	font-family: Arial, Meiryo;
+}
+
+body {
+  	font-family: Arial, Meiryo;
+}
+
+a {
+    color: #0277BD;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #E1F5FE;
+}
+
+small { 
+  font-size: smaller;
+}
+
+.btn {
+  	background-color: #0277BD; 
+  	border: none;
+  	color: #ffffff;
+  	padding: 5px 26px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 12px;
+  	margin: 2px 2px;
+  	cursor: pointer;
+  	-webkit-transition-duration: 0.4s; /* Safari */
+  	transition-duration: 0.4s;
+  	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, td, th {
+    padding: 5px;
+    border: 0px solid black;
+}
+
+.topnav {
+    padding-top : 1px;
+    padding-bottom : 1px;
+    background-color: #AEEA00;
+    color: #2E7D32;
+    text-align: center;
+    font-size: 50%;
+}
+
+.content {
+    padding : 10px;
+    background-color: #F0F4C3;
+    color: #2E7D32;
+    text-align: left;
+    font-size: 70%;
+    overflow: hidden;
+}
+
+.footer {
+    padding-top : 2px;
+    padding-bottom : 2px;
+    background-color: #AEEA00;
+    color: #2E7D32;
+    text-align: center;
+    font-size: 40%;
+} 
+
+.slidecontainer {
+  	width: 100%;
+}
+
+.slider {
+  	-webkit-appearance: none;
+  	width: 150px;
+  	height: 10px;
+  	border-radius: 5px;
+  	background: #d3d3d3;
+  	outline: none;
+  	opacity: 0.7;
+  	-webkit-transition: .2s;
+  	transition: opacity .2s;
+}
+
+.slider:hover {
+  	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  	-webkit-appearance: none;
+  	appearance: none;
+  	width: 20px;
+  	height: 20px;
+  	border-radius: 50%;
+  	background: #4CAF50;
+  	cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  	width: 20px;
+  	height: 20px;
+  	border-radius: 50%;
+  	background: #4CAF50;
+  	cursor: pointer;
+}
+hr { 
+  	display: block;
+  	margin-top: 0.5em;
+  	margin-bottom: 0.5em;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-style: inset;
+  	border-width: 1px;
+} 
+
+ul.title {
+  	display: block;
+  	margin-top: 1em;
+  	margin-bottom: 1 em;
+  	margin-left: 0;
+  	margin-right: 0;
+  	padding-left: 20px;
+  	list-style-type: circle;
+}
+
+ul.sub {
+  	display: block;
+  	margin: 0;
+  	padding-left: 20px;
+  	list-style-type: square;
+}
+
+div.error_division {
+	background: red;
+}
+
+
+}

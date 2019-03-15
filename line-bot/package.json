@@ -1,0 +1,43 @@
+{
+  "name": "line-young",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^6.0.1",
+    "JSON": "^1.0.0",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "jQuery": "^1.7.4",
+    "jose-jwe": "^0.1.6",
+    "jsonwebtoken": "^8.2.1",
+    "node-webtokens": "^1.0.0",
+    "nodejs-aes256": "^1.0.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "curl": "^0.1.4",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.2.0",
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
